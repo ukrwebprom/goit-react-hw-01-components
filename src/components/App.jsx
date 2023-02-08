@@ -23,6 +23,7 @@ export const App = () => {
         padding:'50px'
       }}
     >
+      
     <Profile {...userData} />
     <Statistics title="Download stats" stats = {statData} />
     <FriendList friends={friends} />
