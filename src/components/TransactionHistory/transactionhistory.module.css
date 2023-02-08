@@ -1,0 +1,25 @@
+.transactionHistory {
+    font-size: 14px;
+    min-width: 728px;
+    text-align: center;
+    border-collapse:collapse;
+}
+.tableHeader {
+    background-color: #00cccc;
+    text-transform: uppercase;
+    color: white;
+    height: 42px;
+
+}
+.tableRow {
+    height: 42px;
+    background-color: white;
+}
+.tableRow:nth-child(even) {
+    background-color: #ecf1f3;
+}
+
+.sideBorder {
+    border-right:1px solid #efefef;
+    border-left:1px solid #efefef;
+}

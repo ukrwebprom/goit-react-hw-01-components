@@ -1,0 +1,35 @@
+.statistics {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    overflow: hidden;
+    min-width: 345px;
+    text-align: center;
+}
+.title {
+    text-transform: uppercase;
+    color:#999;
+    font-size: 20px;
+    padding:25px 0 25px 0;
+    font-weight: 400;
+}
+.statlist {
+    list-style: none;
+    display:flex;
+}
+.item {
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding:10px;
+    color:white;
+    align-items: center;
+}
+.label {
+    font-size: 12px;
+}
+.percentage {
+    font-size:18px;
+    font-weight: 600;
+    padding:5px;
+}

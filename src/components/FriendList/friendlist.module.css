@@ -1,0 +1,9 @@
+.item {
+    background-color: white;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content:left;
+    border-radius: 5px;
+    min-width: 300px;
+}
